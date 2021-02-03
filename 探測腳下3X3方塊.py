@@ -1,5 +1,5 @@
 from mcpi.minecraft import Minecraft
-mc = Minecraft.create("203.72.59.38")
+mc = Minecraft.create()
 mcid = mc.getPlayerEntityId("QQhelpme")
 x,y,z = mc.entity.getTilePos(mcid)
 
